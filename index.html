@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1>NÚMEROS A E B</h1>
+            <form id="form-confirm">
+                <input type="number" id="valor-a" required placeholder="Digite o valor A" />
+                <input type="number" id="valor-b" required placeholder="Digite o valor B" />
+                <p class="error-message">
+                    O valor B precisa ser maior que o valor A!
+                </p>
+                <button type="submit">Validar</button>
+            </form>
+            <p class="success-message"></p>
+        </div>
+    </nav> 
+        <script src="./main.js"></script>
+</body>
+</html>
